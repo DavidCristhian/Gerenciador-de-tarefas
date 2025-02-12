@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina inicial</title>
+    <!-- Link css -->
+    <link rel="stylesheet" href="style_Gerenciador_Tarefas.css">
+    <!-- Link script -->
+    <script src="script_Gerenciador_Tarefas.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Lista de <span>tarefas</span></h1>
+            <p>Adicione as suas tarefas</p>
+        </div>
+        <div class="addTask">   
+            <input type="text" placeholder="Digite a tarefa aqui: " id="inputTask">
+            <button onclick="addTask()">Criar tarefa</button>
+        </div>
+        <div class="message">
+            <p id="message"></p>
+        </div>
+        <div class="listTask">
+            <ul id="listTask">
+
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
